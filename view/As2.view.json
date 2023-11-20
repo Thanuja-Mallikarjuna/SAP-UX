@@ -1,0 +1,10 @@
+{
+    "Type":"sap.ui.core.mvc.JSONView",
+    "controllerName":"com.Thanu.library.Assignment2",
+    "content":[{
+        "Type":"sap.m.Button",
+        "id":"showButton",
+        "text":"JSON View",
+        "press":"onButtonPress"
+    }]
+}

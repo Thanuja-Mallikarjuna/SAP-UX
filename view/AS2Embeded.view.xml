@@ -1,0 +1,11 @@
+<mvc:View  
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="com.Thanu.library.Assignment2">
+  <Button text="xml view" press="onPressXmlView"/>
+
+  <mvc:JSView viewName="com.Thanu.library.Assignment2"></mvc:JSView>
+  <mvc:HTMLView viewName="com.Thanu.library.Assignment2"></mvc:HTMLView>
+  <mvc:JSONView viewName="com.Thanu.library.Assignment2"></mvc:JSONView>
+
+  </mvc:View>

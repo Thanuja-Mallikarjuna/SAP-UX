@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-02</title>
+    <script id="sap-ui-bootstrap" src="https://sdk.openui5.org/resources/sap-ui-core.js"
+                data-sap-ui-theme="sap_belize"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-resourceroots='{"Quickstart":"./"}'
+                data-sap-ui-async="true">
+    </script>
+    <script>
+        sap.ui.getCore().attachInit(function(){
+
+            sap.ui.require(["sap/ui/core/mvc/View"],function(oView){
+                oView.create({
+                    id:"idView",
+                    type:sap.ui.core.mvc.ViewType.HTML,
+                    viewName:"com.ibm.simpleapp.view.AS2Embeded"
+                }).then(function(oView){
+                    oView.placeAt("content");
+                }).catch(function(err){
+                    debugger;   
+                })
+
+            })
+
+
+        });
+        
+   
+    </script>
+</head>
+<body>
+    
+</body class="sapUiBody" id="content">
+</html>

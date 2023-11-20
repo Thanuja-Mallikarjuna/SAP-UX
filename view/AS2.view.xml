@@ -1,0 +1,6 @@
+<mvc:iew   
+xmlns:mvc="sap.ui.core.mvc"
+xmlns
+controllerName="com.Thanu.library.Assignment2">
+<Button text="xml View" press="onPressXmlView"/>
+</mvc:View>
