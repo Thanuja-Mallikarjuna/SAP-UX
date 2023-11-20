@@ -1,0 +1,6 @@
+<mvc:View
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns="sap.m"
+   controllerName="com.ui5learners.controller.Main">
+   <Button text="XML View" press="onPressXmlView"/>
+   </mvc:View>

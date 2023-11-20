@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-02</title>
-    <script id="sap-ui-bootstrap" src="https://sdk.openui5.org/resources/sap-ui-core.js"
+    <title>Assignment02</title>
+    <script id="sap-ui-bootstarp" src="https://sdk.openui5.org/resources/sap-ui-core.js"
                 data-sap-ui-theme="sap_belize"
                 data-sap-ui-libs="sap.m"
-                data-sap-ui-resourceroots='{"Quickstart":"./"}'
-                data-sap-ui-async="true">
+                data-sap-ui-resourceroots='{"com.ui5learners":"./"}'
+                data-sap-ui-compatVersion="chrome">
+          
+        
     </script>
-    <script>
+     <script>
         sap.ui.getCore().attachInit(function(){
 
             sap.ui.require(["sap/ui/core/mvc/View"],function(oView){
                 oView.create({
                     id:"idView",
-                    type:sap.ui.core.mvc.ViewType.HTML,
-                    viewName:"com.ibm.simpleapp.view.AS2Embeded"
+                    type:sap.ui.core.mvc.ViewType.XML,
+                    viewName:"com.ui5learners.view.MainEmbeded"
                 }).then(function(oView){
                     oView.placeAt("content");
                 }).catch(function(err){
-                    debugger;   
+                     
                 })
 
             })
@@ -32,7 +34,7 @@
    
     </script>
 </head>
-<body>
+<body id="content" >
     
-</body class="sapUiBody" id="content">
+</body>
 </html>

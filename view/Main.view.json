@@ -1,10 +1,11 @@
 {
     "Type":"sap.ui.core.mvc.JSONView",
-    "controllerName":"com.Thanu.library.Assignment2",
+    "controllerName":"com.ui5learners.controller.main",
     "content":[{
         "Type":"sap.m.Button",
-        "id":"showButton",
+        "id":"idButton",
         "text":"JSON View",
         "press":"onButtonPress"
+
     }]
 }
