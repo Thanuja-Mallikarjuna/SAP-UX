@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<Dialog title="Add User" id="dialogueId" class="sapUiContentPadding">
+<content>
+<Label text="Name"/>
+<Input value=""/>
+<Label text="Email"/>
+<Input value=""/> 
+
+<Label text="Password"/>
+<Input value=""/>
+
+<Label text="Confirmation Password"/>
+<Input value=""/>
+</content>
+
+<footer>
+<beginButton>
+<Button text="Save" press="onPressCloseDialog"/>
+
+</beginButton>
+<endButton>
+<Button text="Cancel" press="onPressCloseDialog"/>
+</endButton>
+
+</footer>
+
+</Dialog>
+</core:FragmentDefinition>
